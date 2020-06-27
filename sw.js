@@ -1,10 +1,3 @@
-// var filesToCache = [
-//   '/',
-//   '/index.html',
-//   '/materialize',
-//   '/js/app.js'
-// ];
-
 var filesToCache = [];
 
 var cacheName = 'my-site-cache-v4';
@@ -40,8 +33,8 @@ self.addEventListener('activate', function(e) {
 // Push notificationss
 self.addEventListener('push', function(event) {
   event.waitUntil(
-    self.registration.showNotification('Ajude o vovô - Informa...', {
-      body: 'Existem mais aviões no mar, que submarinos no céu!'
+    self.registration.showNotification('Teste ...', {
+      body: 'Mensagem de push notification'
    }));
 });
 

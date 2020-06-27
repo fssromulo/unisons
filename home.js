@@ -14,10 +14,6 @@ angular.module('uniSons')
 			{
 				'ds_audio' : 'Ele me Ajuda',
 				'audio_dir' : 'audios/ele-me-ajuda.m4a'
-			},
-			{
-				'ds_audio' : 'Não bloqueou',
-				'audio_dir' : 'audios/nao-bloqueou.m4a'
 			}
 		];
 
